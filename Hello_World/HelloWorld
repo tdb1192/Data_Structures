@@ -1,0 +1,8 @@
+Script started on Tue 01 Sep 2015 07:27:13 PM PDT
+]0;deadzone@ubuntu: ~/Documents/Data_Structuresdeadzone@ubuntu:~/Documents/Data_Structures$ javac HelloWorld.java
+]0;deadzone@ubuntu: ~/Documents/Data_Structuresdeadzone@ubuntu:~/Documents/Data_Structures$ java HelloWorld
+Hello World!
+]0;deadzone@ubuntu: ~/Documents/Data_Structuresdeadzone@ubuntu:~/Documents/Data_Structures$ exit
+exit
+
+Script done on Tue 01 Sep 2015 07:27:30 PM PDT
