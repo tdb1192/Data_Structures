@@ -1,0 +1,84 @@
+Script started on Mon 21 Sep 2015 06:21:29 PM PDT
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Circular_Queuedeadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ javac Circulr[K[Klar_Queue.java
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Circular_Queuedeadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ javac Circular_Queue_Test.java 
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Circular_Queuedeadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ java Cu[Kircular_Queue_Test 
+Please enter a name: Tyler
+Tyler pushed.
+Head: 0, Tail: 0
+Physical view of the queue: Tyler null null null 
+Logical view of the queue: Tyler 
+
+Please enter a name: Sarah
+Sarah pushed.
+Head: 0, Tail: 1
+Physical view of the queue: Tyler Sarah null null 
+Logical view of the queue: Tyler Sarah 
+
+Please enter a name: Eric
+Eric pushed.
+Head: 0, Tail: 2
+Physical view of the queue: Tyler Sarah Eric null 
+Logical view of the queue: Tyler Sarah Eric 
+
+Please enter a name: Chu   Anthony
+Anthony pushed.
+Head: 0, Tail: 3
+Physical view of the queue: Tyler Sarah Eric Anthony 
+Logical view of the queue: Tyler Sarah Eric Anthony 
+
+Popped: Tyler
+Head: 1, Tail: 3
+Physical view of the queue: null Sarah Eric Anthony 
+Logical view of the queue: Sarah Eric Anthony 
+
+Popped: Sarah
+Head: 2, Tail: 3
+Physical view of the queue: null null Eric Anthony 
+Logical view of the queue: Eric Anthony 
+
+Please enter a name: Chuck
+Chuck pushed.
+Head: 2, Tail: 0
+Physical view of the queue: Chuck null Eric Anthony 
+Logical view of the queue: Eric Anthony Chuck 
+
+Please enter a name: Justin
+Justin pushed.
+Head: 2, Tail: 1
+Physical view of the queue: Chuck Justin Eric Anthony 
+Logical view of the queue: Eric Anthony Chuck Justin 
+
+Failed to push - Queue is full.
+Head: 2, Tail: 1
+Physical view of the queue: Chuck Justin Eric Anthony 
+Logical view of the queue: Eric Anthony Chuck Justin 
+
+Popped: Eric
+Head: 3, Tail: 1
+Physical view of the queue: Chuck Justin null Anthony 
+Logical view of the queue: Anthony Chuck Justin 
+
+Popped: Anthony
+Head: 0, Tail: 1
+Physical view of the queue: Chuck Justin null null 
+Logical view of the queue: Chuck Justin 
+
+Popped: Chuck
+Head: 1, Tail: 1
+Physical view of the queue: null Justin null null 
+Logical view of the queue: Justin 
+
+Popped: Justin
+Head: -1, Tail: -1
+Physical view of the queue: null null null null 
+Logical view of the queue: Queue is empty
+
+Failed to pop - Queue is empty.
+Head: -1, Tail: -1
+Physical view of the queue: null null null null 
+Logical view of the queue: Queue is empty
+
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Circular_Queuedeadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ exit
+exit
+
+Script done on Mon 21 Sep 2015 06:22:20 PM PDT
