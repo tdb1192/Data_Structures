@@ -7,12 +7,13 @@ public class Circular_Queue_Test {
 
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String response;
-		System.out.print("Please choose an option: ");
 
 		try {
-			response = reader.readLine();
 			
-			while(response != "q" && response != "Q") {
+			do {
+				
+				System.out.print("Please select an option: ");
+				response = reader.readLine();
 				switch(response) {
 					case "i": 	q.push();
 							break;
@@ -23,31 +24,15 @@ public class Circular_Queue_Test {
 					case "l":	q.printLogical();
 							break;
 					default:	System.out.println("Options are i/d/p/l/q");
-							break;
+								System.out.println();
+							break;	
 				}
 			}
+			while(!response.equals("q"));
 
 		}
 		catch(Exception e) {
 			System.out.println(e);
 		}
-
-		//This test will fill the queue, then remove some names from it
-		//Then it will overfill the queue, and circle around
-		//Lastly, it will empty the queue, and try to empty too many names
-		q.push();	//h=0, t=0
-		q.push();	//h=0, t=1
-		q.push();	//h=0, t=2
-		q.push();	//h=0, t=3 -- queue is full
-		q.pop();	//h=1, t=3 
-		q.pop();	//h=2, t=3
-		q.push();	//h=2, t=0
-		q.push();	//h=2, t=1 -- queue is full
-		q.push();	//h=2, t=1 -- queue is full
-		q.pop();	//h=3, t=1
-		q.pop();	//h=0, t=1
-		q.pop();	//h=1, t=1
-		q.pop();	//h=-1, t=-1 --queue is empty
-		q.pop();	//h=-1, t=-1 --queue is empty
 	}
 }

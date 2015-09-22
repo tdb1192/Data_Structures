@@ -111,6 +111,7 @@ public class Circular_Queue {
 				}			
 			}
 			System.out.println();
+			System.out.println();
 		}				
 	}
 
@@ -123,6 +124,7 @@ public class Circular_Queue {
 		for(int i = 0; i < this.queue.length; i++) {
 			System.out.print(this.queue[i] + " ");
 		}
+		System.out.println();
 		System.out.println();
 	}
 
