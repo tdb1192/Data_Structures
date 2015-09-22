@@ -43,9 +43,6 @@ public class Circular_Queue {
 			}
 		}
 
-		printPoints();
-		printPhysical();
-		printLogical();
 		System.out.println();
 		
 	}
@@ -78,9 +75,7 @@ public class Circular_Queue {
 			this.queue[tail] = x;
 			System.out.println(x + " pushed.");
 		}
-		printPoints();
-		printPhysical();
-		printLogical();
+
 		System.out.println();
 	}
 

@@ -1,6 +1,36 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 public class Circular_Queue_Test {	
 	public static void main( String[] args ) {
 		Circular_Queue q = new Circular_Queue();
+
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		String response;
+		System.out.print("Please choose an option: ");
+
+		try {
+			response = reader.readLine();
+			
+			while(response != "q" && response != "Q") {
+				switch(response) {
+					case "i": 	q.push();
+							break;
+					case "d":	q.pop();
+							break;
+					case "p":	q.printPhysical();
+							break;
+					case "l":	q.printLogical();
+							break;
+					default:	System.out.println("Options are i/d/p/l/q");
+							break;
+				}
+			}
+
+		}
+		catch(Exception e) {
+			System.out.println(e);
+		}
 
 		//This test will fill the queue, then remove some names from it
 		//Then it will overfill the queue, and circle around
