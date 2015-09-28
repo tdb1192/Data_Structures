@@ -43,7 +43,7 @@ public class TestSorts {
 								System.out.print("Resulting array: ");
 								System.out.println(Arrays.toString(a));
 							break;
-					case "q":	break;
+					case "p":	break;
 					default:	System.out.println("Incorrect option selected.");
 								System.out.println();
 							break;	
