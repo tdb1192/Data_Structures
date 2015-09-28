@@ -5,16 +5,12 @@ import java.io.InputStreamReader;
 public class TestSorts {
 	
 	public static void main( String[] args ) {
-		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String response;
 
 		try {
-			
 			do {
-				
-				/*
-					This loop establishes an "unsorted array", and then asks for
+				/*	This loop establishes an "unsorted array", and then asks for
 					user input as to which sorting method should be used to sort it.
 				*/
 				int[] a  = {5,4,3,8,1};
@@ -25,7 +21,6 @@ public class TestSorts {
 				response = reader.readLine();
 				
 				switch(response) {
-					
 					// Each option prints which selection was made and then prints the sorted array
 
 					case "i": 	Sorts.insertionSort(a,a.length);
@@ -53,12 +48,9 @@ public class TestSorts {
 			// The loop will continue unil the user selects "(q)uit"
 			}
 			while(!response.equals("q"));
-
 		}
 		catch(Exception e) {
 			System.out.println(e);
 		}
-		
 	}
-	
 }

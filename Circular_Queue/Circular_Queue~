@@ -1,7 +1,7 @@
 Script started on Mon 21 Sep 2015 06:21:29 PM PDT
-]0;deadzone@ubuntu: ~/Documents/Data_Structures/Circular_Queuedeadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ javac Circulr[K[Klar_Queue.java
-]0;deadzone@ubuntu: ~/Documents/Data_Structures/Circular_Queuedeadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ javac Circular_Queue_Test.java 
-]0;deadzone@ubuntu: ~/Documents/Data_Structures/Circular_Queuedeadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ java Cu[Kircular_Queue_Test 
+deadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ javac Circular_Queue.java
+deadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ javac Circular_Queue_Test.java 
+deadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ java Circular_Queue_Test 
 Please enter a name: Tyler
 Tyler pushed.
 Head: 0, Tail: 0
@@ -20,7 +20,7 @@ Head: 0, Tail: 2
 Physical view of the queue: Tyler Sarah Eric null 
 Logical view of the queue: Tyler Sarah Eric 
 
-Please enter a name: Chu   Anthony
+Please enter a name: Anthony
 Anthony pushed.
 Head: 0, Tail: 3
 Physical view of the queue: Tyler Sarah Eric Anthony 
