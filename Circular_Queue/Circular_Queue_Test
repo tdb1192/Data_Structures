@@ -1,6 +1,6 @@
 Script started on Tue 29 Sep 2015 01:08:29 PM PDT
-]0;deadzone@ubuntu: ~/Documents/Data_Structures/Circular_Queuedeadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ javac *.java
-]0;deadzone@ubuntu: ~/Documents/Data_Structures/Circular_Queuedeadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ java Circular_Queue_ Test
+deadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ javac *.java
+deadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ java Circular_Queue_Test
 Please select an option: u
 Options are i/d/p/l/q
 
@@ -12,7 +12,7 @@ Please select an option: i
 Please enter a name: Sarah
 Sarah pushed.
 
-Please select an option: Eric    i
+Please select an option: i
 Please enter a name: Eric
 Eric pushed.
 
@@ -33,15 +33,14 @@ Physical view of the queue: Anthony Sarah Eric Chuck
 Please select an option: l
 Logical view of the queue: Sarah Eric Chuck Anthony 
 
-Please select an option: p d
+Please select an option: d
 Popped: Sarah
 
-Please select an option: l p
+Please select an option: p
 Physical view of the queue: Anthony null Eric Chuck 
 
 Please select an option: l
 Logical view of the queue: Eric Chuck Anthony 
 
 Please select an option: q
-]0;deadzone@ubuntu: ~/Documents/Data_Structures/Circular_Queuedeadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ exit
-Script done on Tue 29 Sep 2015 01:09:56 PM PDT
+deadzone@ubuntu:~/Documents/Data_Structures/Circular_Queue$ exit
