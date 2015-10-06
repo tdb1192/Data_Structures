@@ -9,7 +9,6 @@ public class Factorial {
 		int response;
 
 		try {
-			
 			/*	Ask for an integer. If it's greater than 0, use the factorial function.
 				If it's 0, Quit. If it's not an integer, Quit.
 			*/
@@ -23,7 +22,6 @@ public class Factorial {
 				}
 			}	
 			while(response > 0);
-
 		}
 		catch(Exception e) {
 			System.out.println("Non-integer selected. Quitting.");
@@ -32,7 +30,6 @@ public class Factorial {
 	}
 
 	public static int factorial(int num) {
-	
 		
 		// 	Base case is 1, returns 1
 		if(num == 1) {
@@ -45,8 +42,6 @@ public class Factorial {
 		*/
 		else {
 			return num * factorial(num - 1);
-		}
-		
+		}	
 	}
-	
 }
