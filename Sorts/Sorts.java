@@ -1,22 +1,23 @@
 public class Sorts {
 	
 	public static void shellSort(int[] list) {
-		int increment;
+		int increment = 5;
 		int start;
 		
 		increment = list.length;
 		do {
 			increment = increment/3 + 1;
 			for(start = 0; start < increment; start++){
-				for( int i = start; i < list.length; i = i + increment){
+				for(int i = start; i < list.length; i = i + increment){
 					int curr = list[i];
-					int j = i + increment;
-					
-					while((j<list.length) && (list[j] > curr) && (j >= start)) {
-						list[j + increment] = list[j - increment];
+					int j = i-increment;
+			
+					while((j>=0) && (list[j] > curr)) {
+						list[j+increment] = list[j];
+						j = j - increment;
 					}
-					
-					list[j + increment] = curr;
+			
+					list[j+increment] = curr;	
 				}
 			} 
 		} while (increment > 1);

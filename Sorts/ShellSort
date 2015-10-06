@@ -1,0 +1,13 @@
+Script started on Tue 06 Oct 2015 01:20:50 PM PDT
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Sortsdeadzone@ubuntu:~/Documents/Data_Structures/Sorts$ javac *.java
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Sortsdeadzone@ubuntu:~/Documents/Data_Structures/Sorts$ java TestSorts
+Unsorted array: [5, 4, 3, 8, 1]
+Please select a sorting option (i/i2/b/s/q): s
+Shell Sort selected.
+Resulting array: [1, 3, 4, 5, 8]
+
+Unsorted array: [5, 4, 3, 8, 1]
+Please select a sorting option (i/i2/b/s/q): q
+
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Sortsdeadzone@ubuntu:~/Documents/Data_Structures/Sorts$ exit
+Script done on Tue 06 Oct 2015 01:21:15 PM PDT
