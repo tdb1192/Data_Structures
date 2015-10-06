@@ -1,5 +1,27 @@
 public class Sorts {
 	
+	public static void shellSort(int[] list) {
+		int increment;
+		int start;
+		
+		increment = list.length;
+		do {
+			increment = increment/3 + 1;
+			for(start = 0; start < increment; start++){
+				for( int i = start; i < list.length; i = i + increment){
+					int curr = list[i];
+					int j = i + increment;
+					
+					while((j<list.length) && (list[j] > curr) && (j >= start)) {
+						list[j + increment] = list[j - increment];
+					}
+					
+					list[j + increment] = curr;
+				}
+			} 
+		} while (increment > 1);
+	}
+	
 	public static void insertionSort(int[] a, int n) {
 		
 		/* 	This sort starts at the second item in the array, and then moves all the way down

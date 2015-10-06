@@ -17,7 +17,7 @@ public class TestSorts {
 			
 				System.out.print("Unsorted array: ");
 				System.out.println(Arrays.toString(a));
-				System.out.print("Please select a sorting option (i/i2/b/q): ");
+				System.out.print("Please select a sorting option (i/i2/b/s/q): ");
 				response = reader.readLine();
 				
 				switch(response) {
@@ -38,6 +38,10 @@ public class TestSorts {
 								System.out.print("Resulting array: ");
 								System.out.println(Arrays.toString(a));
 							break;
+					case "s":	Sorts.shellSort(a);
+								System.out.println("Shell Sort selected.");
+								System.out.print("Resulting array: ");
+								System.out.println(Arrays.toString(a));
 					case "q":	break;
 					default:	System.out.println("Incorrect option selected.");
 								System.out.println();
