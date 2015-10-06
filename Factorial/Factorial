@@ -1,0 +1,46 @@
+Script started on Tue 06 Oct 2015 08:30:50 AM PDT
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Factorialdeadzone@ubuntu:~/Documents/Data_Structures/Factorial$ javac Factorial.java 
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Factorialdeadzone@ubuntu:~/Documents/Data_Structures/Factorial$ java Factorial 
+Select an integer: 1
+1
+Select an integer: 2
+2
+Select an integer: 3
+6
+Select an integer: 4
+24
+Select an integer: 5
+120
+Select an integer: 6
+720
+Select an integer: 7
+5040
+Select an integer: 8
+40320
+Select an integer: 9
+362880
+Select an integer: 10
+3628800
+Select an integer: 11
+39916800
+Select an integer: 12
+479001600
+Select an integer: 13
+1932053504
+Select an integer: 14
+1278945280
+Select an integer: 15
+2004310016
+Select an integer: 16
+2004189184
+Select an integer: 17
+-288522240
+Select an integer: 18
+-898433024
+Select an integer: 19
+109641728
+Select an integer: 20
+-2102132736
+Select an integer: 0
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Factorialdeadzone@ubuntu:~/Documents/Data_Structures/Factorial$ exit
+Script done on Tue 06 Oct 2015 08:31:23 AM PDT
