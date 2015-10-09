@@ -18,7 +18,10 @@ public class FibTest {
 								System.out.println(Fibonacci.fibLoop(Integer.parseInt(response)));
 								System.out.println();
 							break;
-					case "q":
+					case "r":	System.out.print("Enter an integer: ");
+								response = reader.readLine();
+								System.out.println(Fibonacci.fibRec(Integer.parseInt(response)));
+								System.out.println();
 							break;
 					default: 
 							break;
