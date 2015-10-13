@@ -1,0 +1,57 @@
+Script started on Mon 12 Oct 2015 08:21:08 PM EDT
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Fibonaccideadzone@ubuntu:~/Documents/Data_Structures/Fibonacci$ java FibTest
+Please select an option (r/l/q): r
+Enter an integer: 1
+1
+
+Please select an option (r/l/q): r
+Enter an integer: 2
+1
+
+Please select an option (r/l/q): r
+Enter an integer: 3
+2
+
+Please select an option (r/l/q): r
+Enter an integer: 4
+3
+
+Please select an option (r/l/q): r
+Enter an integer: 5
+5
+
+Please select an option (r/l/q): r
+Enter an integer: 6
+8
+
+Please select an option (r/l/q): r
+Enter an integer: 7
+13
+
+Please select an option (r/l/q): r
+Enter an integer: 8
+21
+
+Please select an option (r/l/q): r
+Enter an integer: 9
+34
+
+Please select an option (r/l/q): r
+Enter an integer: 10
+55
+
+Please select an option (r/l/q): r
+Enter an integer: 45
+1134903170
+
+Please select an option (r/l/q): r
+Enter an integer: 46
+1836311903
+
+Please select an option (r/l/q): r
+Enter an integer: 47
+-1323752223
+
+Please select an option (r/l/q): q
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Fibonaccideadzone@ubuntu:~/Documents/Data_Structures/Fibonacci$ exit
+Script done on Mon 12 Oct 2015 08:21:55 PM EDT
