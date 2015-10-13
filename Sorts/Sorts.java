@@ -1,6 +1,14 @@
 public class Sorts {
 	
 	public static void shellSort(int[] list) {
+		
+		/*	This sort is similar to the insertionSort.  However, instead of just cycling through
+			the entire array, it first goes through the array using an increment to dictate which
+			values of the array to look it.  It will compare values that are an increment length 
+			apart from each other. The increment is reduced after each pass-through until it is 1, 
+			which turns the sort temporarily into an insertionSort.  
+		*/
+		
 		int increment = 5;
 		int start;
 		
