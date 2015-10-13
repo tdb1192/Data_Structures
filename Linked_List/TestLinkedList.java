@@ -2,30 +2,38 @@ public class TestLinkedList {
 	
 	public static void main(String[] args) {
 		
-		Node first = new Node(1);
-		Node second = new Node(2);
-		Node third = new Node(3);
-		Node fourth = new Node(4);
-		Node fifth = new Node(5);
+		Node first = new Node("A");
+		Node second = new Node("B");
+		Node third = new Node("C");
+		Node fourth = new Node("D");
+		Node fifth = new Node("E");
 
 		LinkedList link = new LinkedList(third);
-		link.printList();
+			link.printList();	
+		link.removeFirst();		
+			link.printList();	
+		link.addLast(third);
+			link.printList(); 	
+		link.removeLast();
+			link.printList();	
+		link.addFirst(third);
+			link.printList();	
 		link.addLast(fourth);
-		link.printList();
+			link.printList();	
 		link.addFirst(second);
-		link.printList();
+			link.printList();	
 		link.addFirst(first);
-		link.printList();
+			link.printList();	
 		link.addLast(fifth);
-		link.printList();
+			link.printList();	
 		link.removeFirst();
-		link.printList();
+			link.printList();	
 		link.removeLast();
-		link.printList();
+			link.printList();	
 		link.removeLast();
-		link.printList();
-		link.removeFirst();
-		link.printList();
+			link.printList();	
+		link.removeFirst();	
+			link.printList();	
 	}
 	
 }
