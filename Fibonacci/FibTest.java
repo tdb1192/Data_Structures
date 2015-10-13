@@ -9,6 +9,9 @@ public class FibTest {
 
 		try {
 			
+			//	User selects "l" to choose a looped Fibonacci function or "r" for recursive
+			//	As usual, it loops until the user "q"uits
+			
 			do {
 				System.out.print("Please select an option (r/l/q): ");
 				response = reader.readLine();
