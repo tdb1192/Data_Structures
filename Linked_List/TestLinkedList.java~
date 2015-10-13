@@ -8,13 +8,13 @@ public class TestLinkedList {
 		Node fourth = new Node(4);
 		Node fifth = new Node(5);
 
-		LinkedList link = new LinkedList(third);
+		LinkedList link = new LinkedList(first);
 		link.printList();
-		link.addLast(fourth);
+		link.addLast(second);
 		link.printList();
-		link.addFirst(second);
+		link.addFirst(third);
 		link.printList();
-		link.addFirst(first);
+		link.addFirst(fourth);
 		link.printList();
 		link.addLast(fifth);
 		link.printList();

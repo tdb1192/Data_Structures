@@ -39,7 +39,7 @@ public class LinkedList {
 			this.removeFirst();
 		}
 		else {
-			Node curr = this.head;
+			node curr = this.head;
 			while( curr.getNext().getNext() != null) {
 				curr = curr.getNext();
 			}
