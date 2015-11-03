@@ -9,31 +9,31 @@ public class TestLinkedList {
 		Node fifth = new Node("E");
 
 		LinkedList link = new LinkedList(third);
-			link.printList();	// 3
+			link.printList();	
 		link.removeFirst();		
-			link.printList();	// empty
+			link.printList();	
 		link.addLast(third);
-			link.printList(); 	// 3
+			link.printList(); 	
 		link.removeLast();
-			link.printList();	// empty
+			link.printList();	
 		link.addFirst(third);
-			link.printList();	// 3
+			link.printList();	
 		link.addLast(fourth);
-			link.printList();	// 3 -> 4
+			link.printList();	
 		link.addFirst(second);
-			link.printList();	// 2 -> 3 -> 4
+			link.printList();	
 		link.addFirst(first);
-			link.printList();	// 1-> 2 -> 3 -> 4
+			link.printList();	
 		link.addLast(fifth);
-			link.printList();	// 1 -> 2 -> 3 -> 4 -> 5
+			link.printList();	
 		link.removeFirst();
-			link.printList();	// 2 -> 3 -> 4 -> 5
+			link.printList();	
 		link.removeLast();
-			link.printList();	// 2 -> 3 -> 4
+			link.printList();	
 		link.removeLast();
-			link.printList();	// 2 -> 3
+			link.printList();	
 		link.removeFirst();	
-			link.printList();	// 3
+			link.printList();	
 	}
 	
 }

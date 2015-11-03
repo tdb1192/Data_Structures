@@ -14,7 +14,7 @@ public class Node {
 	}
 
 	public void printNode() {
-		System.out.println(this.data.toString());
+		System.out.print(this.data.toString());
 	}
 
 	public Node getNext() {
