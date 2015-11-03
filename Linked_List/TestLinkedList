@@ -1,0 +1,16 @@
+Script started on Tue 03 Nov 2015 12:59:42 PM EST
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Linked_Listdeadzone@ubuntu:~/Documents/Data_Structures/Linked_List$ javas[Kc *.java
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Linked_Listdeadzone@ubuntu:~/Documents/Data_Structures/Linked_List$ java TestLinkedList
+3
+3 -> 4
+2 -> 3 -> 4
+1 -> 2 -> 3 -> 4
+1 -> 2 -> 3 -> 4 -> 5
+2 -> 3 -> 4 -> 5
+2 -> 3 -> 4
+2 -> 3
+3
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Linked_Listdeadzone@ubuntu:~/Documents/Data_Structures/Linked_List$ exit
+exit
+
+Script done on Tue 03 Nov 2015 12:59:58 PM EST
