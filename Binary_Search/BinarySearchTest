@@ -1,0 +1,22 @@
+Script started on Tue 10 Nov 2015 10:20:37 AM EST
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Binary_Searchdeadzone@ubuntu:~/Documents/Data_Structures/Binary_Search$ javac *.java
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Binary_Searchdeadzone@ubuntu:~/Documents/Data_Structures/Binary_Search$ java BinarySearchTest [A
+
+Test Array: 
+1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+
+Testing binarySearchOne positive cases: 
+1:0, 5:2, 9:4, 13:6, 17:8
+
+Testing binarySearchOne negative cases: 
+2:-1, 10:-1, 20:-1
+
+Testing binarySearchTwo positive cases: 
+1:0, 5:2, 9:4, 13:6, 17:8
+
+Testing binarySearchTwo negative cases: 
+2:-1, 10:-1, 20:-1
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Binary_Searchdeadzone@ubuntu:~/Documents/Data_Structures/Binary_Search$ exit
+exit
+
+Script done on Tue 10 Nov 2015 10:20:51 AM EST
