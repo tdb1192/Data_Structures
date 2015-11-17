@@ -1,0 +1,8 @@
+Script started on Tue 17 Nov 2015 01:21:07 PM EST
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Persondeadzone@ubuntu:~/Documents/Data_Structures/Person$ javac *.java
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Persondeadzone@ubuntu:~/Documents/Data_Structures/Person$ person[K[K[K[K[K[Kjava PersonDemo
+[0]joe 25 215-555-1212
+[1]jill 27 312-555-1212 4.0
+[3]bob 29 617-555-1212 $1000000.0
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Persondeadzone@ubuntu:~/Documents/Data_Structures/Person$ exit
+Script done on Tue 17 Nov 2015 01:21:52 PM EST
