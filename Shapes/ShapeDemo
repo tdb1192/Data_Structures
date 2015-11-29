@@ -1,0 +1,9 @@
+Script started on Sun 29 Nov 2015 01:06:05 PM EST
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Shapesdeadzone@ubuntu:~/Documents/Data_Structures/Shapes$ javac*.juava[K[K[K[Kava *.java
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Shapesdeadzone@ubuntu:~/Documents/Data_Structures/Shapes$ java ShapeDemo
+Total area = 15.566370614359172
+Circle: 2.0
+Rectangle: 1.0, 3.0
+null
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Shapesdeadzone@ubuntu:~/Documents/Data_Structures/Shapes$ exit
+Script done on Sun 29 Nov 2015 01:06:21 PM EST
