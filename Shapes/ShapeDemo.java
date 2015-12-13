@@ -24,5 +24,18 @@ class ShapeDemo {
 		
 		System.out.println("Total area = " + totalArea(a));
 		printAll(a);
+		
+		int result = a[0].compareTo(a[1]);
+		
+		if(result == 0) {
+			System.out.println("The areas of the two objects are the same");
+		}
+		else if(result == 1) {
+			System.out.println("The area of the circle is greater than the area of the rectangle.");
+		}
+		else {
+			System.out.println("The area of the circle is less than the area of the rectangle.");
+		}
 	}
+
 }
