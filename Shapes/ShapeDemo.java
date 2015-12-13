@@ -1,5 +1,6 @@
 class ShapeDemo {
 	
+	// Adds up the total area of all shapes in the array, ignoring nulls
 	public static double totalArea(Shape[] arr) {
 		
 		double total = 0;
@@ -13,13 +14,17 @@ class ShapeDemo {
 		return total;
 	}
 	
+	//	Prints shapes in the array, utilizing their toString() methods
 	public static void printAll(Shape[] arr) {
 		for (Shape s : arr ) {
 			System.out.println(s);
 		}
 	}
 	
+	//	Makes an array containing a circle and rectangle, calculates their total area
+	//	And compares the areas of the circle and rectangle
 	public static void main(String[] args) {
+		
 		Shape[] a = { new Circle(2.0), new Rectangle(1.0, 3.0), null};
 		
 		System.out.println("Total area = " + totalArea(a));
