@@ -1,0 +1,10 @@
+Script started on Sun 13 Dec 2015 01:26:57 PM EST
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Shapesdeadzone@ubuntu:~/Documents/Data_Structures/Shapes$ javac *.java
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Shapesdeadzone@ubuntu:~/Documents/Data_Structures/Shapes$ java ShapeDemo
+Total area = 15.566370614359172
+Circle: 2.0
+Rectangle: 1.0, 3.0
+null
+The area of the circle is greater than the area of the rectangle.
+]0;deadzone@ubuntu: ~/Documents/Data_Structures/Shapesdeadzone@ubuntu:~/Documents/Data_Structures/Shapes$ exit
+Script done on Sun 13 Dec 2015 01:27:11 PM EST
